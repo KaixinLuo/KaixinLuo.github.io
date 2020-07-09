@@ -9,6 +9,63 @@ body{
   min-width: 780px;
   max-width: 1440px;
 }
+a{
+  border-bottom: 5px solid  #F7D722;
+  text-decoration: none;
+  color: currentColor;
+  transition: 0.6s;
+}
+a:hover{
+  background-color: #F7D722;
+  text-decoration: none;
+  color: currentColor;
+  border-bottom: 0px solid  #F7D722;
+  border-radius: 8px;
+  font-weight: bold;
+}
+input{
+  border-bottom: 5px solid  #F7D722;
+  text-decoration: none;
+  color: currentColor;
+  border-width:0px;
+  font-family: 'Roboto Slab', serif;
+  border:none;
+  transition: 0.6s;
+}
+input:hover{
+  background-color: #F7D722;
+  text-decoration: none;
+  color: currentColor;
+  
+  border-bottom: 0px solid  #F7D722;
+  border-radius: 8px;
+  font-weight: bold;
+}
+input.btn{
+  background-color: #050505;
+  color: white;
+  border-radius: 8px;
+  margin: 10px;
+  height: 45px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom: 0px solid  #F7D722;
+  transition: 0.6s;
+  white-space: nowrap;
+}
+
+input.btn:hover{
+  background-color: #F7D722;
+  color: #050505;
+  border-radius: 8px;
+  height: 45px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  white-space: nowrap;
+ 
+}
 .page-title-layout{
   width: 100%;
   display: flex;
@@ -67,39 +124,4 @@ body{
 }
 .hightlight-style{
   color:#F7D722
-}
-a{
-  border-bottom: 5px solid  #F7D722;
-  text-decoration: none;
-  color: currentColor;
-  transition: 0.6s;
-}
-a:hover{
-  background-color: #F7D722;
-  text-decoration: none;
-  color: currentColor;
-  border-bottom: 0px solid  #F7D722;
-  border-radius: 8px;
-  font-weight: bold;
-}
-a.btn{
-  background-color: #050505;
-  color: white;
-  border-radius: 8px;
-  height: 45px;
-  padding: 10px;
-  font-size: 24px;
-  font-weight: normal;
-  border-bottom: 0px solid  #F7D722;
-  transition: 0.6s;
-}
-a.btn:hover{
-  background-color: #F7D722;
-  color: #050505;
-  border-radius: 8px;
-  height: 45px;
-  padding: 10px;
-  font-size: 24px;
-  font-weight: normal;
-  
 }

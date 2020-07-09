@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 <html>
 
 <head>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <title>Student Wellness Project</title>
+    
 </head>
 
 <body>
@@ -26,12 +31,11 @@
                     A design research and visualization project by Yvette Shen, Dr. Elizabeth Sanders, Anne
                     Knellinger, Deana Sagaris, and Kaixin Luo
                 </p>
-                <p>
-                    <span>
-                        <a class="btn" href='#'>Research Road Map</a>
-                        <a class="btn" href='#'>What Persona Are You?</a>
-                    </span>
-                </p>
+
+                <div>
+                    <input class="btn " type="button" id = "roadMapBtn" value="Research Road Map" />
+                    <input class="btn " type="button" id = "personaBtn" value="What Persona Are You?" />
+                </div>
             </div>
         </span>
     </div>
@@ -40,8 +44,7 @@
 
             <p class="body-style">
                 We are exploring the problems students face in their everyday lives that elicit stress and anxiety, as
-                well
-                as
+                well as
                 their experiences and strategies of dealing with these problems. We are also looking into the mental
                 health
                 support that is currently offered to students on the Ohio State University(OSU)'s campus<br /><br />
@@ -58,7 +61,6 @@
         <div class="page-body-layout">
 
             <p id="codesign" class="page-parah-layout section-title-style">
-
                 What Is Codesign?
             </p>
 
