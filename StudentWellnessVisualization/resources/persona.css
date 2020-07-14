@@ -1,0 +1,94 @@
+.cls-4 {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke: #989898;
+    transition: 0.3s;
+}
+
+path.cls-4:hover {
+    fill: none;
+    stroke: #050505;
+    opacity: 1;
+    stroke-width: 2;
+}
+
+.cls-1,
+.cls-13,
+.cls-2,
+.cls-3 {
+    fill: none;
+}
+
+.cls-1,
+.cls-2 {
+    stroke: #cbcbcb;
+}
+
+.cls-1,
+.cls-2,
+.cls-3 {
+    stroke-miterlimit: 10;
+}
+
+.cls-1 {
+    stroke-width: 10px;
+}
+
+.cls-13,
+.cls-3 {
+    stroke: #707070;
+}
+
+.cls-3 {
+    stroke-width: 5px;
+}
+
+.cls-5 {
+    font-size: 12px;
+    font-family: RobotoSlab-Light, Roboto Slab;
+    font-weight: 300;
+}
+
+.cls-6 {
+    letter-spacing: 0.01em;
+}
+
+.cls-7 {
+    letter-spacing: 0.01em;
+}
+
+.cls-12,
+.cls-8 {
+    isolation: isolate;
+}
+
+.cls-8 {
+    font-size: 16px;
+    fill: #313030;
+    font-family: RobotoSlab-Regular, Roboto Slab;
+}
+
+.cls-9 {
+    letter-spacing: -0.02em;
+}
+
+.cls-10 {
+    letter-spacing: -0.01em;
+}
+
+.cls-11 {
+    letter-spacing: 0em;
+}
+
+.cls-13 {
+    stroke-width: 2.58px;
+    stroke-dasharray: 2.58 5.16;
+}
+
+.cls-14 {
+    fill: #050505;
+}
+
+.cls-15 {
+    fill: #707070;
+}

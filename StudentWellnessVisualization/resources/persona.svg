@@ -1,0 +1,98 @@
+<?xml-stylesheet type="text/css" href="persona.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705.8 437.3">
+<script href="./persona.js "></script>
+	<g id="axis">
+		<line class="cls-1" x1="68.8" y1="393.5" x2="68.8" y2="38" />
+		<line class="cls-2" x1="250.6" y1="391.5" x2="250.6" y2="37.5" />
+		<line class="cls-2" x1="432.4" y1="391" x2="432.4" y2="37" />
+		<line class="cls-2" x1="614.3" y1="391" x2="614.3" y2="37" />
+		<line class="cls-3" x1="63.5" y1="391.5" x2="705.3" y2="391.5" />
+	</g>
+	<g id="graph">
+		<path class="cls-4" d="M371.5,519.5c34.3,6.1,51.7-7.6,83.6-22.3a45.9,45.9,0,0,1,38.2.2c22,10,43.4,2.9,65.2-2.8s44.4-9,67.5-6.6c21.2,2.3,44.1,8.6,65,1.1a39.5,39.5,0,0,1,34.7,4.2c24.9,16.3,30.4,16.7,61.4,10.7,11.1-2.1,23.9-10.1,35-12s45.9-1.4,56,6c29.8,22,88.6,26.8,124,28" transform="translate(-296.4 -137.5)" />
+		<path class="cls-4" d="M371.5,510.5c25.8-2.6,48-10,70.6-23.7,13.4-8.1,20.4-21.3,27-34.8s18.3-28.1,22.8-44.2c13-46.7,14.1-122.4,58.2-152.8,21.5-14.7,60.4-7.5,76,18,20.4,33.3,23.4,60.2,43,94,9.4,16.2,21.4,26.4,36,38,27,21.4,60.6,43.8,95,45,70.6,2.6,102,78,201,75" transform="translate(-296.4 -137.5)" />
+		<path class="cls-4" d="M370.5,461.5c76-8.6,70.7-11.8,144.6-31.5,25.6-6.8,45.9-20.4,62.6-40.8s19.4-50.7,35.4-73.1c9.6-13.6,24.2-22.9,39.8-28.6,44.6-16.3,78.7-5.6,125.2-12.5,22.1-3.2,65.9-9,82-27s42-26.9,50-31c14-7,39-37,83-37" transform="translate(-296.4 -137.5)" />
+		<path class="cls-4" d="M371.5,486.5c26.9-12.2,44.9-53.1,46.6-85.5,2.1-39.6,19.2-110.5,28-141,16-55,80.5-47,128-48,76-1.5,95.1-3.4,171-5,28.1-.5,94.1.5,120,12,54,24,58.3,167.4,81,244,6.9,23.3,22,39,52,42" transform="translate(-296.4 -137.5)" />
+	</g>
+	<g id="labels">
+		<text class="cls-5" transform="translate(72.4 410.1)">
+			MORNING
+			<tspan x="0" y="12">
+				6am
+			</tspan>
+		</text>
+		<text class="cls-5" transform="translate(250.4 410.1)">
+			A
+			<tspan class="cls-6" x="8.8" y="0">
+				F
+			</tspan>
+			<tspan x="16.2" y="0">
+				TERN
+			</tspan>
+			<tspan class="cls-7" x="48.8" y="0">
+				O
+			</tspan>
+			<tspan x="57.3" y="0">
+				ON
+			</tspan>
+			<tspan x="0" y="12">
+				12pm
+			</tspan>
+		</text>
+		<text class="cls-5" transform="translate(431.4 410.1)">
+			EVENING
+			<tspan x="0" y="12">
+				6pm
+			</tspan>
+		</text>
+		<text class="cls-5" transform="translate(612.9 410.1) scale(1.06 1)">
+			MIDNIGHT
+			<tspan x="0" y="12">
+				12am
+			</tspan>
+		</text>
+		<text class="cls-8" transform="translate(0 13.7)">
+			Maxi
+			<tspan class="cls-9" x="38.8" y="0">
+				m
+			</tspan>
+			<tspan x="54" y="0">
+				um
+			</tspan>
+			<tspan x="0" y="18">
+				St
+			</tspan>
+			<tspan class="cls-10" x="15.1" y="18">
+				r
+			</tspan>
+			<tspan class="cls-11" x="21.6" y="18">
+				e
+			</tspan>
+			<tspan x="30" y="18">
+				ss
+			</tspan>
+		</text>
+		<g id="No_Stress" data-name="No Stress" class="cls-12">
+			<text class="cls-8" transform="translate(0 403.5)">
+				No
+				<tspan x="0" y="18">
+					St
+				</tspan>
+				<tspan class="cls-10" x="15.1" y="18">
+					r
+				</tspan>
+				<tspan class="cls-11" x="21.6" y="18">
+					e
+				</tspan>
+				<tspan x="30" y="18">
+					ss
+				</tspan>
+			</text>
+		</g>
+		<g id="Group_20" data-name="Group 20">
+			<line id="Line_14" data-name="Line 14" class="cls-13" x1="31.3" y1="53.9" x2="31.3" y2="384.3" />
+			<path id="Polygon_1" data-name="Polygon 1" class="cls-14" d="M327.7,176l9.2,25.1H318.4Z" transform="translate(-296.4 -137.5)" />
+			<path id="Polygon_2" data-name="Polygon 2" class="cls-15" d="M327.7,529l-4.1-11.2h8.1Z" transform="translate(-296.4 -137.5)" />
+		</g>
+	</g>
+</svg>
