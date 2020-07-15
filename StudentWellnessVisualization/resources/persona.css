@@ -1,94 +1,180 @@
-.cls-4 {
-    fill: none;
-    stroke-miterlimit: 10;
-    stroke: #989898;
-    transition: 0.3s;
-}
-
-path.cls-4:hover {
-    fill: none;
-    stroke: #050505;
-    opacity: 1;
-    stroke-width: 2;
-}
-
 .cls-1,
-.cls-13,
+.cls-16,
+.cls-18,
 .cls-2,
-.cls-3 {
-    fill: none;
-}
-
-.cls-1,
-.cls-2 {
-    stroke: #cbcbcb;
-}
-
-.cls-1,
-.cls-2,
-.cls-3 {
-    stroke-miterlimit: 10;
-}
-
-.cls-1 {
-    stroke-width: 10px;
-}
-
-.cls-13,
-.cls-3 {
-    stroke: #707070;
-}
-
-.cls-3 {
-    stroke-width: 5px;
-}
-
-.cls-5 {
-    font-size: 12px;
-    font-family: RobotoSlab-Light, Roboto Slab;
-    font-weight: 300;
-}
-
-.cls-6 {
-    letter-spacing: 0.01em;
-}
-
-.cls-7 {
-    letter-spacing: 0.01em;
-}
-
-.cls-12,
-.cls-8 {
+.cls-25,
+.cls-30 {
     isolation: isolate;
 }
 
-.cls-8 {
-    font-size: 16px;
-    fill: #313030;
+.cls-2 {
+    font-size: 21px;
+}
+
+.cls-2,
+.cls-25,
+.cls-33 {
+    fill: #707070;
+}
+
+.cls-18,
+.cls-2,
+.cls-25,
+.cls-30,
+.cls-35 {
     font-family: RobotoSlab-Regular, Roboto Slab;
 }
 
-.cls-9 {
-    letter-spacing: -0.02em;
+.cls-3 {
+    letter-spacing: 0.01em;
 }
 
-.cls-10 {
+.cls-4 {
     letter-spacing: -0.01em;
 }
 
+.cls-12,
+.cls-15,
+.cls-21,
+.cls-22,
+.cls-23,
+.cls-24,
+.cls-27,
+.cls-28,
+.cls-29,
+.cls-31,
+.cls-5,
+.cls-6,
+.cls-9 {
+    fill: none;
+}
+
+.cls-21,
+.cls-6 {
+    stroke: #9fc855;
+}
+
+.cls-12,
+.cls-15,
+.cls-6 {
+    stroke-width: 2px;
+}
+
+.cls-7 {
+    fill: #d9d9d9;
+}
+
+.cls-8 {
+    fill: #737373;
+}
+
+.cls-24,
+.cls-9 {
+    stroke: #fb9482;
+}
+
+.cls-9 {
+    stroke-width: 8px;
+}
+
+.cls-10 {
+    fill: #fb9482;
+}
+
 .cls-11 {
-    letter-spacing: 0em;
+    letter-spacing: -0.01em;
+}
+
+.cls-12,
+.cls-22 {
+    stroke: #7fc8bb;
 }
 
 .cls-13 {
-    stroke-width: 2.58px;
-    stroke-dasharray: 2.58 5.16;
+    fill: #2b388f;
 }
 
 .cls-14 {
+    letter-spacing: -0.01em;
+}
+
+.cls-15,
+.cls-23 {
+    stroke: #f8ab1d;
+}
+
+.cls-16,
+.cls-18 {
+    font-size: 24px;
+}
+
+.cls-16,
+.cls-32 {
     fill: #050505;
 }
 
-.cls-15 {
-    fill: #707070;
+.cls-16 {
+    font-family: RobotoSlab-Bold, Roboto Slab;
+    font-weight: 700;
+}
+
+.cls-17 {
+    letter-spacing: -0.06em;
+}
+
+.cls-18 {
+    fill: #626262;
+}
+
+.cls-19 {
+    letter-spacing: 0em;
+}
+
+.cls-20 {
+    letter-spacing: -0.01em;
+}
+
+.cls-23 {
+    stroke-miterlimit: 10;
+}
+
+.cls-25 {
+    font-size: 18px;
+}
+
+.cls-26 {
+    letter-spacing: -0.01em;
+}
+
+.cls-27,
+.cls-29 {
+    stroke: #ccc;
+}
+
+.cls-28,
+.cls-31 {
+    stroke: #707070;
+    stroke-width: 5px;
+}
+
+.cls-29 {
+    stroke-width: 10px;
+}
+
+.cls-30,
+.cls-35 {
+    font-size: 25px;
+    fill: #313030;
+}
+
+.cls-31 {
+    stroke-dasharray: 5 10;
+}
+
+.cls-34 {
+    fill: url(#linear-gradient);
+}
+
+.cls-36 {
+    fill: url(#linear-gradient-3);
 }

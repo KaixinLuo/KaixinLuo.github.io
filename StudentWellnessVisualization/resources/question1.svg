@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="question.css"?>
 <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Main" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#9FC855;stroke-width:2;stroke-miterlimit:10;}
@@ -13,30 +13,31 @@
 	.st7{fill:none;stroke:#FB9482;stroke-width:2;stroke-miterlimit:10;}
 	.st8{fill:none;stroke:#7FC8BB;stroke-width:2;stroke-miterlimit:10;}
 	.st9{fill:#2B388F;}
-	.st10{fill:none;stroke:#F8AB1D;stroke-width:2;stroke-miterlimit:10;}
-	.st11{fill:#050505;}
-	.st12{font-family:'RobotoSlab-Bold';}
-	.st13{font-size:24px;}
-	.st14{fill:#626262;}
-	.st15{fill:none;stroke:#9FC855;stroke-width:2;}
-	.st16{fill:none;stroke:#7FC8BB;stroke-width:2;}
-	.st17{fill:none;stroke:#FB9482;stroke-width:2;}
-	.st18{font-size:18px;}
-	.st19{fill:none;stroke:#CCCCCC;}
-	.st20{fill:none;stroke:#707070;stroke-width:5;}
-	.st21{fill:none;stroke:#CCCCCC;stroke-width:10;}
-	.st22{fill:#313030;}
-	.st23{font-size:25px;}
-	.st24{fill:none;stroke:#707070;stroke-width:5;stroke-dasharray:5,10;}
-	.st25{enable-background:new    ;}
-	.st26{fill:url(#SVGID_1_);}
-	.st27{fill:url(#SVGID_2_);}
-	.st28{fill:url(#SVGID_3_);}
-	.st29{fill:url(#SVGID_4_);}
-	.st30{fill:url(#SVGID_5_);}
-	.st31{fill:url(#SVGID_6_);}
-	.st32{fill:url(#SVGID_7_);}
-	.st33{fill:url(#SVGID_8_);}
+	.st10{fill:#FFFFFF;stroke:#F8AB1D;stroke-width:2;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#F8AB1D;stroke-width:2;stroke-miterlimit:10;}
+	.st12{fill:#050505;}
+	.st13{font-family:'RobotoSlab-Bold';}
+	.st14{font-size:24px;}
+	.st15{fill:#626262;}
+	.st16{fill:none;stroke:#9FC855;stroke-width:2;}
+	.st17{fill:none;stroke:#7FC8BB;stroke-width:2;}
+	.st18{fill:none;stroke:#FB9482;stroke-width:2;}
+	.st19{font-size:18px;}
+	.st20{fill:none;stroke:#CCCCCC;}
+	.st21{fill:none;stroke:#707070;stroke-width:5;}
+	.st22{fill:none;stroke:#CCCCCC;stroke-width:10;}
+	.st23{fill:#313030;}
+	.st24{font-size:25px;}
+	.st25{fill:none;stroke:#707070;stroke-width:5;stroke-dasharray:5,10;}
+	.st26{enable-background:new    ;}
+	.st27{fill:url(#SVGID_1_);}
+	.st28{fill:url(#SVGID_2_);}
+	.st29{fill:url(#SVGID_3_);}
+	.st30{fill:url(#SVGID_4_);}
+	.st31{fill:url(#SVGID_5_);}
+	.st32{fill:url(#SVGID_6_);}
+	.st33{fill:url(#SVGID_7_);}
+	.st34{fill:url(#SVGID_8_);}
 </style>
 <g id="PersonaAvatars">
 	<g id="AvatarPersona1">
@@ -104,7 +105,7 @@
 		<g id="P4Bg">
 			<rect id="P4AvtBg" x="1444.72" y="706.58" class="st10" width="258" height="77"/>
 			<rect id="P4TxtBg" x="1547.67" y="713.8" class="st1" width="148.15" height="62.81"/>
-			<line id="P4BgSplt" class="st10" x1="1542.72" y1="705.58" x2="1542.72" y2="784.58"/>
+			<line id="P4BgSplt" class="st11" x1="1542.72" y1="705.58" x2="1542.72" y2="784.58"/>
 		</g>
 		<text transform="matrix(1 0 0 1 1584.8905 739.0776)" class="st2 st3 st4">TYPE IV</text>
 		<text transform="matrix(1 0 0 1 1572.7135 764.0776)" class="st2 st3 st4">Early Peak</text>
@@ -125,76 +126,76 @@
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 308.7215 911.0776)" class="st11 st12 st13">PERSONA TYPE II: High Stress</text>
-<text transform="matrix(1 0 0 1 308.7215 951.0776)" class="st14 st3 st13">The High Stress type is stressed almost all the time in day and night. Their stress level spikes up right after </text>
-<text transform="matrix(1 0 0 1 308.7215 991.0776)" class="st14 st3 st13">waking up, and only drops down at the end of their days.</text>
+<text transform="matrix(1 0 0 1 308.7215 911.0776)" class="st12 st13 st14">PERSONA TYPE II: High Stress</text>
+<text transform="matrix(1 0 0 1 308.7215 951.0776)" class="st15 st3 st14">The High Stress type is stressed almost all the time in day and night. Their stress level spikes up right after </text>
+<text transform="matrix(1 0 0 1 308.7215 991.0776)" class="st15 st3 st14">waking up, and only drops down at the end of their days.</text>
 <g id="Plot">
 	<g id="PersonaCurve">
-		<path id="CurvePersona1" class="st15" d="M1427.72,771.76c-16.85,0.51-76.42-12.77-108.37-15.98s-48.41-10.23-80.97-17.83
+		<path id="CurvePersona1" class="st16" d="M1427.72,771.76c-16.85,0.51-76.42-12.77-108.37-15.98s-48.41-10.23-80.97-17.83
 			s-58.57-6.99-104.02,0s-85.08,24.59-151.78,0s-93.86-10.43-125.86-13.26s-37.86,8.62-84.45,0s-65.29,1.01-93.37,13.26
 			s-92.88,3.78-108.43,0c-15.55-3.78-55.54-1.7-73.68,0s-73.88,9.04-100.67,17.83s-87.12-9.13-87.12-9.13"/>
-		<path id="CurvePersona3" class="st16" d="M313.47,686.3c0,0,115.03-12.37,148.35-11.41s160.91-9.59,214.88-34.37
+		<path id="CurvePersona3" class="st17" d="M313.47,686.3c0,0,115.03-12.37,148.35-11.41s160.91-9.59,214.88-34.37
 			s71.12-45.17,99.05-69.8s45.66-48.76,83.19-55.87s90.56-13.99,115.58-23.34s46.52-13.42,70.51-21.1
 			c23.99-7.68,55.75-22.5,76.32-39.54s29.87-26.25,52.99-64.63s67.13-51.77,100.18-72.73s113.68-54.76,129.95-53.11"/>
-		<path id="CurvePersona4" class="st10" d="M308.12,736.17c68.53,5.92,64.13-16.15,127-37.44c17.23-5.83,66.19-65.24,78.64-78.31
+		<path id="CurvePersona4" class="st11" d="M308.12,736.17c68.53,5.92,64.13-16.15,127-37.44c17.23-5.83,66.19-65.24,78.64-78.31
 			c10.6-11.13,23.06-73.52,27.35-88.16c22.63-77.23,12.86-185.01,77.22-228.45c38.33-25.85,172.82-27.96,214.7,19.05
 			c27.36,42.1,19.81,21.9,48.33,89.6c1.71,2.89,30.61,85.01,32.58,89.1c16.52,34.37,19.84,68.87,43.31,87.15
 			c48.13,37.49,79.67,65.56,141.06,67.75c125.81,4.48,158.34,90.13,329.4,100.57"/>
-		<path id="CurvePersona2" class="st17" d="M312.72,720.14c0,0,83.46-27.84,79.62-285.12s204.89-255.25,204.89-255.25
+		<path id="CurvePersona2" class="st18" d="M312.72,720.14c0,0,83.46-27.84,79.62-285.12s204.89-255.25,204.89-255.25
 			s180.19-1.85,267.16,0s88.23-12.6,187.83,0s154.85-8.87,210.57,50.4s65.92,233.79,71.75,285.35s36.8,133.45,55.94,172.28
 			s28.01,40.69,37.24,57.35"/>
 	</g>
 	<g id="PlotBackGround">
 		<g id="TimeLabels">
-			<text transform="matrix(1 0 0 1 308.7215 812.0776)" class="st2 st3 st18">Morning</text>
-			<text transform="matrix(1 0 0 1 308.7215 832.0776)" class="st2 st3 st18">6am</text>
-			<text transform="matrix(1 0 0 1 651.7215 812.0776)" class="st2 st3 st18">Afternoon</text>
-			<text transform="matrix(1 0 0 1 651.7215 832.0776)" class="st2 st3 st18">12pm</text>
-			<text transform="matrix(1 0 0 1 1029.7216 812.0776)" class="st2 st3 st18">Evening</text>
-			<text transform="matrix(1 0 0 1 1029.7216 832.0776)" class="st2 st3 st18">6pm</text>
-			<text transform="matrix(1 0 0 1 1348.7216 812.0776)" class="st2 st3 st18">Midnight</text>
-			<text transform="matrix(1 0 0 1 1348.7216 832.0776)" class="st2 st3 st18">12am</text>
+			<text transform="matrix(1 0 0 1 308.7215 812.0776)" class="st2 st3 st19">Morning</text>
+			<text transform="matrix(1 0 0 1 308.7215 832.0776)" class="st2 st3 st19">6am</text>
+			<text transform="matrix(1 0 0 1 651.7215 812.0776)" class="st2 st3 st19">Afternoon</text>
+			<text transform="matrix(1 0 0 1 651.7215 832.0776)" class="st2 st3 st19">12pm</text>
+			<text transform="matrix(1 0 0 1 1029.7216 812.0776)" class="st2 st3 st19">Evening</text>
+			<text transform="matrix(1 0 0 1 1029.7216 832.0776)" class="st2 st3 st19">6pm</text>
+			<text transform="matrix(1 0 0 1 1348.7216 812.0776)" class="st2 st3 st19">Midnight</text>
+			<text transform="matrix(1 0 0 1 1348.7216 832.0776)" class="st2 st3 st19">12am</text>
 		</g>
-		<line id="Anchor12pm" class="st19" x1="653.05" y1="786.41" x2="653.05" y2="145.68"/>
-		<line id="Anchor6pm" class="st19" x1="1029.72" y1="786.41" x2="1029.72" y2="145.68"/>
-		<line id="Anchor12am" class="st19" x1="1348.58" y1="786.41" x2="1348.58" y2="145.68"/>
-		<line id="TimeAxis" class="st20" x1="308.51" y1="786.95" x2="1428.22" y2="786.62"/>
-		<line id="StressAxis" class="st21" x1="312.38" y1="786.41" x2="312.38" y2="145.68"/>
+		<line id="Anchor12pm" class="st20" x1="653.05" y1="786.41" x2="653.05" y2="145.68"/>
+		<line id="Anchor6pm" class="st20" x1="1029.72" y1="786.41" x2="1029.72" y2="145.68"/>
+		<line id="Anchor12am" class="st20" x1="1348.58" y1="786.41" x2="1348.58" y2="145.68"/>
+		<line id="TimeAxis" class="st21" x1="308.51" y1="786.95" x2="1428.22" y2="786.62"/>
+		<line id="StressAxis" class="st22" x1="312.38" y1="786.41" x2="312.38" y2="145.68"/>
 		<g id="StressMerit">
-			<text transform="matrix(1 0 0 1 216.7215 104.0776)" class="st22 st3 st23">Maximum</text>
-			<text transform="matrix(1 0 0 1 216.7215 132.0776)" class="st22 st3 st23">Stress</text>
+			<text transform="matrix(1 0 0 1 216.7215 104.0776)" class="st23 st3 st24">Maximum</text>
+			<text transform="matrix(1 0 0 1 216.7215 132.0776)" class="st23 st3 st24">Stress</text>
 			<g id="StressArrow" transform="translate(21 69.497)">
-				<line id="Line_14" class="st24" x1="236.22" y1="105.58" x2="236.22" y2="697.16"/>
-				<path id="Polygon_1" class="st11" d="M236.22,77.58l19.5,45h-39L236.22,77.58z"/>
+				<line id="Line_14" class="st25" x1="236.22" y1="105.58" x2="236.22" y2="697.16"/>
+				<path id="Polygon_1" class="st12" d="M236.22,77.58l19.5,45h-39L236.22,77.58z"/>
 				<path id="Polygon_2" class="st2" d="M236.22,709.58l-8.5-20h17L236.22,709.58z"/>
 			</g>
-			<g class="st25">
+			<g class="st26">
 				<g>
 					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="216.7217" y1="799.1445" x2="270.1226" y2="799.1445">
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st26" d="M235,788.3v1.55l-1.99,0.34v15.88h-2.4l-8.54-13.72l-0.07,0.02v11.82l1.99,0.34v1.54h-6.38v-1.54
+					<path class="st27" d="M235,788.3v1.55l-1.99,0.34v15.88h-2.4l-8.54-13.72l-0.07,0.02v11.82l1.99,0.34v1.54h-6.38v-1.54
 						l1.99-0.34v-14l-1.99-0.34v-1.55h1.99h2.4l8.54,13.71l0.07-0.03V790.2l-1.99-0.34v-1.55h4.39H235z"/>
 					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="216.7217" y1="799.1445" x2="270.1226" y2="799.1445">
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st27" d="M236.86,799.35c0-1.95,0.53-3.56,1.59-4.83c1.06-1.27,2.49-1.9,4.31-1.9c1.82,0,3.27,0.63,4.33,1.89
+					<path class="st28" d="M236.86,799.35c0-1.95,0.53-3.56,1.59-4.83c1.06-1.27,2.49-1.9,4.31-1.9c1.82,0,3.27,0.63,4.33,1.89
 						c1.06,1.26,1.59,2.87,1.59,4.83v0.27c0,1.97-0.53,3.58-1.59,4.83c-1.06,1.25-2.49,1.88-4.31,1.88c-1.83,0-3.28-0.63-4.33-1.89
 						c-1.06-1.26-1.59-2.87-1.59-4.83V799.35z M239.27,799.62c0,1.4,0.29,2.55,0.89,3.47c0.59,0.91,1.47,1.37,2.63,1.37
 						c1.14,0,2.01-0.46,2.6-1.37c0.59-0.91,0.89-2.07,0.89-3.47v-0.27c0-1.38-0.3-2.53-0.89-3.45c-0.59-0.92-1.47-1.38-2.62-1.38
 						c-1.16,0-2.03,0.46-2.61,1.38s-0.88,2.07-0.88,3.45V799.62z"/>
 				</g>
-				<text transform="matrix(1 0 0 1 216.7215 806.0776)" class="st22 st3 st23">No </text>
+				<text transform="matrix(1 0 0 1 216.7215 806.0776)" class="st23 st3 st24">No </text>
 			</g>
-			<g class="st25">
+			<g class="st26">
 				<g>
 					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="216.7217" y1="821.1445" x2="304.4858" y2="821.1445">
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st28" d="M230.45,815.55h-1.82l-0.45-2.54c-0.37-0.31-0.85-0.57-1.46-0.77c-0.61-0.2-1.32-0.31-2.12-0.31
+					<path class="st29" d="M230.45,815.55h-1.82l-0.45-2.54c-0.37-0.31-0.85-0.57-1.46-0.77c-0.61-0.2-1.32-0.31-2.12-0.31
 						c-1.28,0-2.26,0.27-2.94,0.81c-0.68,0.54-1.03,1.25-1.03,2.12c0,0.77,0.35,1.42,1.04,1.93c0.7,0.52,1.82,0.97,3.38,1.36
 						c1.87,0.46,3.29,1.15,4.27,2.05c0.97,0.9,1.46,2.02,1.46,3.36c0,1.43-0.58,2.58-1.75,3.45c-1.17,0.87-2.7,1.31-4.58,1.31
 						c-1.37,0-2.58-0.22-3.64-0.67c-1.06-0.45-1.93-1.03-2.59-1.76v-3.31h1.81l0.46,2.55c0.46,0.38,1.02,0.7,1.66,0.94
@@ -205,7 +206,7 @@
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st29" d="M237.23,811.68v3.19h2.5v1.78h-2.5v8.02c0,0.62,0.13,1.05,0.38,1.31c0.26,0.25,0.6,0.38,1.02,0.38
+					<path class="st30" d="M237.23,811.68v3.19h2.5v1.78h-2.5v8.02c0,0.62,0.13,1.05,0.38,1.31c0.26,0.25,0.6,0.38,1.02,0.38
 						c0.21,0,0.45-0.02,0.71-0.06c0.26-0.04,0.49-0.08,0.67-0.12l0.33,1.65c-0.23,0.15-0.56,0.27-1,0.36
 						c-0.44,0.09-0.88,0.14-1.32,0.14c-0.98,0-1.75-0.29-2.33-0.88c-0.58-0.59-0.87-1.52-0.87-2.78v-8.02h-2.09v-1.78h2.09v-3.19
 						H237.23z"/>
@@ -213,14 +214,14 @@
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st30" d="M242.19,816.42v-1.55h4.14l0.23,1.92c0.37-0.68,0.84-1.21,1.39-1.59c0.55-0.38,1.18-0.57,1.89-0.57
+					<path class="st31" d="M242.19,816.42v-1.55h4.14l0.23,1.92c0.37-0.68,0.84-1.21,1.39-1.59c0.55-0.38,1.18-0.57,1.89-0.57
 						c0.19,0,0.38,0.01,0.58,0.04c0.2,0.03,0.35,0.06,0.46,0.09l-0.32,2.23l-1.37-0.07c-0.63,0-1.17,0.15-1.6,0.45
 						c-0.43,0.3-0.77,0.71-1,1.25v7.58l1.99,0.34v1.54h-6.38v-1.54l1.99-0.34v-9.44L242.19,816.42z"/>
 					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="216.7217" y1="821.1445" x2="304.4858" y2="821.1445">
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st31" d="M258.56,828.33c-1.84,0-3.3-0.61-4.39-1.84c-1.09-1.22-1.63-2.81-1.63-4.77v-0.54
+					<path class="st32" d="M258.56,828.33c-1.84,0-3.3-0.61-4.39-1.84c-1.09-1.22-1.63-2.81-1.63-4.77v-0.54
 						c0-1.88,0.56-3.44,1.68-4.69c1.12-1.25,2.44-1.87,3.97-1.87c1.77,0,3.12,0.54,4.03,1.61c0.92,1.07,1.37,2.51,1.37,4.3v1.5
 						h-8.57l-0.04,0.06c0.02,1.27,0.35,2.31,0.96,3.13c0.62,0.82,1.48,1.23,2.6,1.23c0.81,0,1.53-0.12,2.14-0.35
 						c0.61-0.23,1.15-0.55,1.59-0.96l0.94,1.56c-0.47,0.46-1.1,0.84-1.87,1.15C260.58,828.18,259.65,828.33,258.56,828.33z
@@ -230,7 +231,7 @@
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st32" d="M276.07,819.02h-1.81l-0.39-1.59c-0.29-0.28-0.66-0.5-1.1-0.67c-0.44-0.17-0.95-0.25-1.51-0.25
+					<path class="st33" d="M276.07,819.02h-1.81l-0.39-1.59c-0.29-0.28-0.66-0.5-1.1-0.67c-0.44-0.17-0.95-0.25-1.51-0.25
 						c-0.85,0-1.49,0.19-1.9,0.56c-0.42,0.37-0.62,0.83-0.62,1.35c0,0.52,0.18,0.93,0.55,1.23c0.37,0.3,1.11,0.57,2.23,0.8
 						c1.67,0.36,2.91,0.84,3.72,1.46c0.81,0.62,1.22,1.44,1.22,2.47c0,1.17-0.47,2.12-1.42,2.84c-0.95,0.72-2.19,1.09-3.72,1.09
 						c-1,0-1.9-0.12-2.7-0.35c-0.8-0.23-1.51-0.57-2.14-1.01l-0.01-3.01h1.81l0.45,1.77c0.28,0.25,0.65,0.44,1.13,0.55
@@ -241,7 +242,7 @@
 						<stop  offset="0" style="stop-color:#FFFFFF"/>
 						<stop  offset="1" style="stop-color:#000000"/>
 					</linearGradient>
-					<path class="st33" d="M288.82,819.02h-1.81l-0.39-1.59c-0.29-0.28-0.66-0.5-1.1-0.67c-0.44-0.17-0.95-0.25-1.51-0.25
+					<path class="st34" d="M288.82,819.02h-1.81l-0.39-1.59c-0.29-0.28-0.66-0.5-1.1-0.67c-0.44-0.17-0.95-0.25-1.51-0.25
 						c-0.85,0-1.49,0.19-1.9,0.56c-0.42,0.37-0.62,0.83-0.62,1.35c0,0.52,0.18,0.93,0.55,1.23c0.37,0.3,1.11,0.57,2.23,0.8
 						c1.67,0.36,2.91,0.84,3.72,1.46c0.81,0.62,1.22,1.44,1.22,2.47c0,1.17-0.47,2.12-1.42,2.84c-0.95,0.72-2.19,1.09-3.72,1.09
 						c-1,0-1.9-0.12-2.7-0.35c-0.8-0.23-1.51-0.57-2.14-1.01l-0.01-3.01h1.81l0.45,1.77c0.28,0.25,0.65,0.44,1.13,0.55
@@ -249,7 +250,7 @@
 						c-0.4-0.34-1.17-0.64-2.29-0.89c-1.6-0.35-2.81-0.83-3.63-1.43c-0.81-0.6-1.22-1.42-1.22-2.44c0-1.07,0.46-1.99,1.37-2.75
 						c0.92-0.76,2.11-1.14,3.57-1.14c1,0,1.9,0.13,2.7,0.39c0.8,0.26,1.46,0.62,1.99,1.09L288.82,819.02z"/>
 				</g>
-				<text transform="matrix(1 0 0 1 216.7215 828.0776)" class="st22 st3 st23">Stress</text>
+				<text transform="matrix(1 0 0 1 216.7215 828.0776)" class="st23 st3 st24">Stress</text>
 			</g>
 		</g>
 	</g>
