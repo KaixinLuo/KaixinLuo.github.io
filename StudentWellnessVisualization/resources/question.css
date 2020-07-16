@@ -2,6 +2,14 @@
     transition: 0.4s;
 }
 
-#P4AvtBg:hover {
+#CurvePersona4 {
+    transition: 0.4s;
+}
+
+#CurvePersona4:hover+#P4AvtBg {
     fill: #F8AB1D;
+}
+
+#P4AvtBg:hover+#CurvePersona4 {
+    stroke-width: 200%;
 }
