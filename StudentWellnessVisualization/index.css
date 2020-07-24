@@ -182,6 +182,8 @@ button.btn:hover {
     transition: 0.4s;
 }
 
+
+
 #CurvePersona1:hover,
 #CurvePersona2:hover,
 #CurvePersona3:hover,
@@ -208,7 +210,7 @@ button.btn:hover {
 #DetailP1,
 #DetailP2,
 #DetailP3,
-#DetailP4 {
+#DetailP4{
     transition: 0.4s;
     display: none;
 }
