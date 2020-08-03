@@ -19,8 +19,7 @@ def formatPrint(dic):
     for (k,v) in dic.items():
         print (k,' : ',v)
 
-formatPrint(count([0.5,
-0,
-2,
-1,
-3.5]))
+print ("|radius | frequency|")
+print ("|------ | ---------|")
+for i in range(10):
+    print ("|",math.sqrt(i)*radius ," | ",i,"|")
