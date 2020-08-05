@@ -70,8 +70,10 @@ function question2CSS(id){
     $("#question2-persona"+id).css("display","none");
     $("#question2-avatar-background-p" + id).css("transition","0.4s");
 }
+//super bad practice
+var highlightedTarget = "";
 function question2Animate(id){
-    var highlightedTarget = "";
+    
     $("#question2-persona-avatar-" + id).mouseenter(function() {
         if (highlightedTarget!==id){
             $("#question2-persona" + id).css('display' , 'block');
