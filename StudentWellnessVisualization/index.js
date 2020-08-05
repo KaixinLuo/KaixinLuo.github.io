@@ -69,39 +69,44 @@ function question2CSS(id){
     $("#question2-persona"+id).css("transition","0.4s");
     $("#question2-persona"+id).css("display","none");
     $("#question2-avatar-background-p" + id).css("transition","0.4s");
+    $("#question2-avatar-hover-cover-p"+id).css("display","none");
 }
 //super bad practice
 var highlightedTarget = "";
 function question2Animate(id){
     
-    $("#question2-persona-avatar-" + id).mouseenter(function() {
+    $("#question2-persona-avatar-p" + id).mouseenter(function() {
+        $("#question2-avatar-hover-cover-p" + id).css('display' , 'block');
         if (highlightedTarget!==id){
             $("#question2-persona" + id).css('display' , 'block');
-            $("#question2-avatar-background-p" + id).css('fill',color[id])
+            
         }
         
     });
-    $("#question2-persona-avatar-" + id).mouseleave(function() {
+    $("#question2-persona-avatar-p" + id).mouseleave(function() {
+        $("#question2-avatar-hover-cover-p" + id).css('display' , 'none');
         if (highlightedTarget!==id){
             $("#question2-persona" + id).css('display' , 'none');
-            $("#question2-avatar-background-p" + id).css('fill','white')
+           
         }
         
     });
 
-    $("#question2-persona-avatar-" + id).click(function() {
+    $("#question2-persona-avatar-p" + id).click(function() {
         if (highlightedTarget!==''){
             $("#question2-persona" + highlightedTarget).css('display' , 'none');
-            $("#question2-avatar-background-p" + highlightedTarget).css('fill','white')
+            $("#question2-avatar-background-p" + highlightedTarget).css('stroke','none')
         }
         if (highlightedTarget!==id){
             highlightedTarget=id
             $("#question2-persona" + id).css('display' , 'block');
-            $("#question2-avatar-background-p" + id).css('fill',color[id])
+            $("#question2-avatar-background-p" + id).css('stroke',"#989898")
+            $("#question2-avatar-background-p" + id).css('stroke-width','6')
+
         }else if (highlightedTarget===id){
             highlightedTarget=''
             $("#question2-persona" + id).css('display' , 'none');
-            $("#question2-avatar-background-p" + id).css('fill','white')
+            $("#question2-avatar-background-p" + id).css('stroke','none')
         }
 
         
