@@ -2,6 +2,7 @@
 $(
     function() {
         loadQuestion1SVG()
+        loadQuestion2SVG()
     }
 );
 color = {
@@ -52,4 +53,56 @@ function question1Animate(id) {
         $("#persona-curve-" + id).css("stroke-width", '2')
         $('#persona-detail-' + id).css('display' , 'none')
     });
+}
+
+function loadQuestion2SVG(){
+    question2CSS('1')
+    question2CSS('2')
+    question2CSS('3')
+    question2CSS('4')
+    question2Animate('1')
+    question2Animate('2')
+    question2Animate('3')
+    question2Animate('4')
+}
+function question2CSS(id){
+    $("#question2-persona"+id).css("transition","0.4s");
+    $("#question2-persona"+id).css("display","none");
+    $("#question2-avatar-background-p" + id).css("transition","0.4s");
+}
+function question2Animate(id){
+    var highlightedTarget = "";
+    $("#question2-persona-avatar-" + id).mouseenter(function() {
+        if (highlightedTarget!==id){
+            $("#question2-persona" + id).css('display' , 'block');
+            $("#question2-avatar-background-p" + id).css('fill',color[id])
+        }
+        
+    });
+    $("#question2-persona-avatar-" + id).mouseleave(function() {
+        if (highlightedTarget!==id){
+            $("#question2-persona" + id).css('display' , 'none');
+            $("#question2-avatar-background-p" + id).css('fill','white')
+        }
+        
+    });
+
+    $("#question2-persona-avatar-" + id).click(function() {
+        if (highlightedTarget!==''){
+            $("#question2-persona" + highlightedTarget).css('display' , 'none');
+            $("#question2-avatar-background-p" + highlightedTarget).css('fill','white')
+        }
+        if (highlightedTarget!==id){
+            highlightedTarget=id
+            $("#question2-persona" + id).css('display' , 'block');
+            $("#question2-avatar-background-p" + id).css('fill',color[id])
+        }else if (highlightedTarget===id){
+            highlightedTarget=''
+            $("#question2-persona" + id).css('display' , 'none');
+            $("#question2-avatar-background-p" + id).css('fill','white')
+        }
+
+        
+    });
+
 }
