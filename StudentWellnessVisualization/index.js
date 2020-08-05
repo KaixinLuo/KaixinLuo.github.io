@@ -1,35 +1,55 @@
-color = {
-    '1': '#9FC855',
-    '2': '#FB9482',
-    '3': '#7FC8BB',
-    '4': '#F8AB1D'
-}
+
 $(
     function() {
-        animate('1')
-        animate('2')
-        animate('3')
-        animate('4')
+        loadQuestion1SVG()
     }
 );
+color = {
+    '1': '#FB9482',
+    '2': '#F8AB1D',
+    '3': '#7FC8BB',
+    '4': '#9FC855'
+}
+function loadQuestion1SVG(){
+    question1Animate('1')
+    question1Animate('2')
+    question1Animate('3')
+    question1Animate('4')
+    question1CSS('1')
+    question1CSS('2')
+    question1CSS('3')
+    question1CSS('4')
+}
 
+function question1CSS(id){
+    $("#persona-curve-" + id).css("transition","0.4s");
+    $("#persona-curve-" + id).css("fill","none");
+    $("#avatar-background-p" + id).css("transition","0.4s");
+    $("#avatar-background-p" + id).css("fill","white");
+    $("#persona-avatar-" + id).css("transition","0.4s");
+    $('#persona-detail-' + id).css("transition","0.4s");
+    $('#persona-detail-' + id).css("display","none");
 
-function animate(id) {
-    $("#CurvePersona" + id).mouseenter(function() {
-
-        $("#P" + id + "AvtBg").get(0).style.fill = color[id]
-        $('#DetailP' + id).get(0).style.display = 'block'
+}
+function question1Animate(id) {
+    $("#persona-curve-" + id).mouseenter(function() {
+        $("#persona-curve-" + id).css("stroke-width", '6');
+        $("#avatar-background-p" + id).css('fill',color[id])
+        $('#persona-detail-' + id).css('display' , 'block')
     });
-    $("#CurvePersona" + id).mouseleave(function() {
-        $("#P" + id + "AvtBg").get(0).style.fill = ""
-        $('#DetailP' + id).get(0).style.display = ''
+    $("#persona-curve-" + id).mouseleave(function() {
+        $("#persona-curve-" + id).css("stroke-width", '2');
+        $("#avatar-background-p" + id).css('fill' ,"white")
+        $('#persona-detail-' + id).css('display' , 'none')
     });
-    $("#P" + id + "AvtBg").mouseenter(function() {
-        $("#CurvePersona" + id).css("stroke-width", '6')
-        $('#DetailP' + id).get(0).style.display = 'block'
+    $("#avatar-background-p" + id).mouseenter(function() {
+        $("#avatar-background-p" + id).css("fill",color[id])
+        $("#persona-curve-" + id).css("stroke-width", '6')
+        $('#persona-detail-' + id).css('display' , 'block')
     });
-    $("#P" + id + "AvtBg").mouseleave(function() {
-        $("#CurvePersona" + id).css("stroke-width", '')
-        $('#DetailP' + id).get(0).style.display = ''
+    $("#avatar-background-p" + id).mouseleave(function() {
+        $("#avatar-background-p" + id).css("fill","white")
+        $("#persona-curve-" + id).css("stroke-width", '2')
+        $('#persona-detail-' + id).css('display' , 'none')
     });
 }
