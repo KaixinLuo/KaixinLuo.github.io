@@ -64,6 +64,7 @@ function loadQuestion2SVG(){
     question2Animate('2')
     question2Animate('3')
     question2Animate('4')
+    question2DataPointEvent()
 }
 function question2CSS(id){
     $("#question2-persona"+id).css("transition","0.4s");
@@ -72,44 +73,51 @@ function question2CSS(id){
     $("#question2-avatar-hover-cover-p"+id).css("display","none");
 }
 //super bad practice
-var highlightedTarget = "";
+var highlightedAvatarID = "";
+var highlightedCircleID ="";
 function question2Animate(id){
     
     $("#question2-persona-avatar-p" + id).mouseenter(function() {
         $("#question2-avatar-hover-cover-p" + id).css('display' , 'block');
-        if (highlightedTarget!==id){
-            $("#question2-persona" + id).css('display' , 'block');
-            
+        if (highlightedAvatarID!==id){
+            $("#question2-persona" + id).css('display' , 'block');   
         }
-        
     });
     $("#question2-persona-avatar-p" + id).mouseleave(function() {
         $("#question2-avatar-hover-cover-p" + id).css('display' , 'none');
-        if (highlightedTarget!==id){
+        if (highlightedAvatarID!==id){
             $("#question2-persona" + id).css('display' , 'none');
-           
         }
         
     });
 
     $("#question2-persona-avatar-p" + id).click(function() {
-        if (highlightedTarget!==''){
-            $("#question2-persona" + highlightedTarget).css('display' , 'none');
-            $("#question2-avatar-background-p" + highlightedTarget).css('stroke','none')
+        if (highlightedAvatarID!==''){
+            $("#question2-persona" + highlightedAvatarID).css('display' , 'none');
+            $("#question2-avatar-background-p" + highlightedAvatarID).css('stroke','none')
         }
-        if (highlightedTarget!==id){
-            highlightedTarget=id
+        if (highlightedAvatarID!==id){
+            highlightedAvatarID=id
             $("#question2-persona" + id).css('display' , 'block');
             $("#question2-avatar-background-p" + id).css('stroke',"#989898")
             $("#question2-avatar-background-p" + id).css('stroke-width','6')
 
-        }else if (highlightedTarget===id){
-            highlightedTarget=''
+        }else if (highlightedAvatarID===id){
+            highlightedAvatarID=''
             $("#question2-persona" + id).css('display' , 'none');
             $("#question2-avatar-background-p" + id).css('stroke','none')
         }
-
-        
     });
 
+}
+
+function question2DataPointEvent(){
+    $("circle[id^='q2d']").mouseenter(function(){
+        $(this).css('stroke',"#989898");
+        $(this).css('stroke-width','6');
+    })
+    $("circle[id^='q2d']").mouseleave(function(){
+        $(this).css('stroke','none')
+    })
+    
 }
