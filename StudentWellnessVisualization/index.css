@@ -163,4 +163,12 @@ button.btn:hover {
     flex-direction: row;
     justify-content: baseline;
 }
+div#toc{
+    position: fixed ! important; 
+    position: absolute; 
+    width:260px; 
+    right: 10%; 
+    top: 30%;
+    transform: scale(5);
+}
 

@@ -3,6 +3,7 @@ $(
     function() {
         loadQuestion1SVG()
         loadQuestion2SVG()
+        
     }
 );
 color = {
@@ -74,7 +75,6 @@ function question2CSS(id){
 }
 //super bad practice
 var highlightedAvatarID = "";
-var highlightedCircleID ="";
 function question2Animate(id){
     
     $("#question2-persona-avatar-p" + id).mouseenter(function() {
@@ -112,12 +112,16 @@ function question2Animate(id){
 }
 
 function question2DataPointEvent(){
-    $("circle[id^='q2d']").mouseenter(function(){
+    $("circle[id^='q2d']").mouseenter(function(e){
         $(this).css('stroke',"#989898");
         $(this).css('stroke-width','6');
+        
+
+        $("div[id='question2float-window']").append("<p>"+$(this).attr('id')+"</p>")
     })
     $("circle[id^='q2d']").mouseleave(function(){
         $(this).css('stroke','none')
+        $("div[id='question2float-window']").text = ''
     })
     
 }
