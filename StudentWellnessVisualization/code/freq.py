@@ -25,7 +25,7 @@ data = [
     (3.5,1.5,2.5,2.5,3.8,2)
 ]
 
-radius = 82
+radius = 61.5
 
 def count(lst):
     target = sorted(lst)
@@ -53,10 +53,17 @@ def dicgen(persona,activity):
             else:
                 result[e[activity]] = 1
     return result
+def foo():
+    for persona in range(5):
+        for action in range(5):
+            print("persona:",persona,"action:",action+1)
+            table = {k: v for k, v in sorted(dicgen(persona,action).items(), key=lambda item: item[0])}
+            for (val,freq) in table.items():
+                print(f'q2da{action+1}p{persona}f{freq}s{val:.2f}')
 
-for persona in range(5):
-    for action in range(5):
-        print("persona:",persona,"action:",action+1)
-        table = {k: v for k, v in sorted(dicgen(persona,action).items(), key=lambda item: item[0])}
-        for (val,freq) in table.items():
-            print(f'q2da{action+1}p{persona}f{freq}s{val:.2f}')
+print(f'{(math.sqrt(2)*radius)}')
+print(f'{(math.sqrt(3)*radius)}')
+print(f'{(math.sqrt(4)*radius)}')
+print(f'{(math.sqrt(5)*radius)}')
+print(f'{(math.sqrt(6)*radius)}')
+print(f'{(math.sqrt(7)*radius)}')

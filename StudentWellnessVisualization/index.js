@@ -112,16 +112,17 @@ function question2Animate(id){
 }
 
 function question2DataPointEvent(){
-    $("circle[id^='q2d']").mouseenter(function(e){
-        $(this).css('stroke',"#989898");
-        $(this).css('stroke-width','6');
-        
-
-        $("div[id='question2float-window']").append("<p>"+$(this).attr('id')+"</p>")
+    $("g[id^='q2g'] > text").css('display','none')
+    $("g[id^='q2g']").mouseenter(function(e){
+        $("g[id='"+$(this).attr('id')+"'] > circle").css('stroke',"#989898");
+        $("g[id='"+$(this).attr('id')+"'] > circle").css('stroke-width','6');
+        $("g[id='"+$(this).attr('id')+"'] > text").css('display','block');
+        //$("div[id='question2float-window']").append("<p>"+$(this).attr('id')+"</p>")
     })
-    $("circle[id^='q2d']").mouseleave(function(){
-        $(this).css('stroke','none')
-        $("div[id='question2float-window']").text = ''
+    $("g[id^='q2g']").mouseleave(function(){
+        $("g[id='"+$(this).attr('id')+"'] > circle").css('stroke','none')
+        $("g[id='"+$(this).attr('id')+"'] > text").css('display','none');
+       
     })
     
 }
