@@ -9,6 +9,22 @@ $(
         
     }
 );
+color = {
+    '1': '#FB9482',
+    '2': '#F8AB1D',
+    '3': '#7FC8BB',
+    '4': '#9FC855'
+}
+function loadQuestion1SVG(){
+    question1Animate('1')
+    question1Animate('2')
+    question1Animate('3')
+    question1Animate('4')
+    question1CSS('1')
+    question1CSS('2')
+    question1CSS('3')
+    question1CSS('4')
+}
 
 function roadmapClick(id){
     $('html, body').animate({
